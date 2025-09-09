@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Story+Script&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .lato-bold {
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .frame {
+            height: 375px;
+            border-radius: 15px;
+            padding: 10px;
+            margin-bottom: 10px;
+            object-fit: cover;
+            object-position: center;
+            background-color: #3CC37E;
+        }
+        img{
+            width: 100%;
+        }
+        .photo {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .align-center {
+            align-items: center;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .col-3 {
+            width: 25%;
+            padding: 0px 5px;
+        }
+        .justify-center {
+            justify-content: center;
+        }
+        .pt{
+            padding-top: 15px;
+        }
+        .flex-wrap{
+            flex-wrap: wrap;
+        }
+        .text-center{
+            text-align: center;
+        }
+        /* #3CC37E */
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="d-flex flex-wrap" id="data">
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
